@@ -1,5 +1,23 @@
 [
   {
+    "id": "30c3ea69a4cb8af2",
+    "source": "動區動趨",
+    "language": "tw",
+    "original_title": "Polymarket 確認第三方遭入侵：已修復、移交執法、承諾補償，交易暫停恢復中",
+    "source_url": "https://www.blocktempo.com/polymarket-third-party-compromised-made-whole/",
+    "published_at": "2026-10-29T18:53:09+00:00",
+    "status": "collected"
+  },
+  {
+    "id": "793fb18e8f7e1804",
+    "source": "動區動趨",
+    "language": "tw",
+    "original_title": "快訊》Polymarket 前端疑似遭駭！用戶回報錢包被盜，交易切換為僅能取消委託",
+    "source_url": "https://www.blocktempo.com/polymarket-cancel-only-frontend-wallet-drain-reports/",
+    "published_at": "2026-10-29T18:43:08+00:00",
+    "status": "collected"
+  },
+  {
     "id": "ba0b9a5d6c495b31",
     "source": "動區動趨",
     "language": "tw",
@@ -8,9 +26,11 @@
     "published_at": "2026-10-29T16:56:02+00:00",
     "status": "collected",
     "verified_facts": "根據湖南湘江新區2026年9月的報道，位於湖南長沙西湖公園旁的猿素咖啡，推出購買咖啡贈送人工智能Token使用額度的服務，顧客可利用相關額度使用人工智能創作工具。店內設有工作與交流空間，並採用人臉辨識門禁，提供24小時進出安排。創辦人周小馳曾在英國接觸社區咖啡館文化，回到長沙後創辦猿素咖啡，將飲品消費與共享辦公及創業交流結合。報道指出，店內apemonk人工智能創作社區已累積超過200個AI影片作品，部分作品公開提示詞供使用者參考。《長沙晚報》2025年6月報道，猿素咖啡的社群已聚集超過1000名數位遊民，並定期舉辦交流活動。這個數字是社群規模的報道說法，不代表單一門店同時容納超過1000人。免費Token的具體數量、使用期限及適用模型尚未獲得確認。",
-    "verification_sources": ["https://k.sina.com.cn/article_5952915705_162d248f906703o1z8.html","https://www.icswb.com/h/105704/20250627/933826.html"
-]
-  } ,
+    "verification_sources": [
+      "https://k.sina.com.cn/article_5952915705_162d248f906703o1z8.html",
+      "https://www.icswb.com/h/105704/20250627/933826.html"
+    ]
+  },
   {
     "id": "c71c7703da941b10",
     "source": "PANews",

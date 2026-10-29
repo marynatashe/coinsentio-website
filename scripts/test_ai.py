@@ -64,9 +64,26 @@ try:
     print("AI response:")
     print(answer)
 
+
 except urllib.error.HTTPError as error:
     print("AI request failed")
     print("HTTP status:", error.code)
+
+    try:
+        details = json.loads(
+            error.read().decode("utf-8")
+        )
+        info = details.get("error", details)
+
+        if isinstance(info, dict):
+            print("Error code:", info.get("code"))
+            print("Error message:", info.get("message"))
+        else:
+            print("Error details:", str(info)[:300])
+
+    except Exception:
+        print("Unable to decode API error")
+
     raise SystemExit(1)
 
 except Exception as error:

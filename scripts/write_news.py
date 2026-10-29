@@ -96,11 +96,27 @@ def main():
             cn = ask_ai(
                 item["original_title"], facts, "簡體中文"
             )
+        
         except urllib.error.HTTPError as error:
             print("AI HTTP error:", error.code)
+
+            try:
+                details = json.loads(
+                    error.read().decode("utf-8")
+                )
+                info = details.get("error", details)
+
+                if isinstance(info, dict):
+                    print("Error code:", info.get("code"))
+                    print("Error message:", info.get("message"))
+                else:
+                    print("Error details:", str(info)[:300])
+
+            except Exception:
+                print("Unable to decode API error")
+
             break
 
-        
         tw_count = count_chinese(tw)
         cn_count = count_chinese(cn)
 

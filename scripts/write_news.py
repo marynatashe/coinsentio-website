@@ -100,25 +100,20 @@ def main():
             print("AI HTTP error:", error.code)
             break
 
+        
+        tw_count = count_chinese(tw)
+        cn_count = count_chinese(cn)
+
+        print("Traditional Chinese characters:", tw_count)
+        print("Simplified Chinese characters:", cn_count)
+
         if not (
-            400 <= count_chinese(tw) <= 600
-            and 400 <= count_chinese(cn) <= 600
+            400 <= tw_count <= 600
+            and 400 <= cn_count <= 600
         ):
             print("Skipped article with invalid length")
             continue
 
-        drafts.append({
-            "id": item["id"],
-            "source": item.get("source", ""),
-            "source_url": item.get("source_url", ""),
-            "original_title": item["original_title"],
-            "body_tw": tw,
-            "body_cn": cn,
-            "status": "pending_review",
-            "created_at": datetime.now(
-                timezone.utc
-            ).isoformat()
-        })
 
         existing.add(item["id"])
         created += 1

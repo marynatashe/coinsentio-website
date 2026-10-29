@@ -44,3 +44,9 @@ jobs:
             git commit -m "Auto-update CoinSentio news"
             git push
           fi
+          
+      - name: Test Zhipu AI connection
+        env:
+          ZHIPU_API_KEY: ${{ secrets.ZHIPU_API_KEY }}
+        run: python scripts/test_ai.py
+

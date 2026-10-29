@@ -7,8 +7,11 @@ on:
     - cron: '17,47 * * * *'
 
 permissions:
-  contents: read
+  contents: write
 
+concurrency:
+  group: coinsentio-news-update
+  cancel-in-progress: false
 
 jobs:
   update-news:
@@ -17,11 +20,27 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5
+        with:
+          persist-credentials: true
 
       - name: Set up Python
         uses: actions/setup-python@v6
         with:
           python-version: '3.12'
 
-      - name: Run CoinSentio news system
+      - name: Collect RSS news
         run: python scripts/update_news.py
+
+      - name: Save news to GitHub
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data/news.json
+
+          if git diff --cached --quiet; then
+            echo "No new news to save"
+          else
+            git commit -m "Auto-update CoinSentio news"
+            git push
+          fi

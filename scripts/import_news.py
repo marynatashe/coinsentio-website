@@ -16,7 +16,7 @@ REQUIRED = (
 
 
 def parse_markdown(text):
-    text = text.lstrip("\ufeff")
+    text = text.lstrip("\ufeff \t\r\n")
 
     match = re.match(
         r"\A---\s*\n(.*?)\n---\s*\n(.*)\Z",

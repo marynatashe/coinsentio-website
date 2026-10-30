@@ -19,10 +19,10 @@ def parse_markdown(text):
     text = text.lstrip("\ufeff \t\r\n")
 
     match = re.match(
-        r"\A---\s*\n(.*?)\n---\s*\n(.*)\Z",
-        text,
-        re.S
-    )
+    r"\A---[ \t]*\r?\n(.*?)\r?\n---[ \t]*\r?\n(.*)\Z",
+    text,
+    re.S
+)
     if not match:
         raise ValueError("Missing front matter")
 

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "coinsentio-test-001",
+    "title_tw": "CoinSentio 啟動 Markdown 新聞發布測試",
+    "title_cn": "CoinSentio 启动 Markdown 新闻发布测试",
+    "body_tw": "CoinSentio 正在測試全新的 Markdown 新聞發布系統。新系統不再依賴外部人工智能 API 自動搜尋或改寫新聞，而是由獨立程式產生 Markdown 文章，再交由網站的定時匯入程序處理。\n\n系統每三小時檢查一次指定資料夾，將符合格式的新聞轉換成 JSON 資料。成功儲存後，原始 Markdown 檔案會從待處理資料夾移除。",
+    "body_cn": "CoinSentio 正在测试全新的 Markdown 新闻发布系统。新系统不再依赖外部人工智能 API 自动搜索或改写新闻，而是由独立程序产生 Markdown 文章，再交由网站的定时导入程序处理。\n\n系统每三小时检查一次指定文件夹，将符合格式的新闻转换成 JSON 数据。成功保存后，原始 Markdown 文件会从待处理文件夹移除。",
+    "category": "平台公告",
+    "published_at": "2026-10-30",
+    "source": "CoinSentio",
+    "source_url": "",
+    "status": "published"
+  }
+]

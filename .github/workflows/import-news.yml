@@ -1,0 +1,48 @@
+
+name: CoinSentio Markdown News Import
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */3 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: coinsentio-markdown-import
+  cancel-in-progress: false
+
+jobs:
+  import-news:
+    runs-on: ubuntu-24.04
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+        with:
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Import Markdown news
+        run: python scripts/import_news.py
+
+      - name: Save published news
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add -A data/published_news.json incoming-news/
+
+          if git diff --cached --quiet; then
+            echo "No news changes to save"
+            exit 0
+          fi
+
+          git commit -m "Import CoinSentio Markdown news"
+          git pull --rebase origin main
+          git push origin HEAD:main

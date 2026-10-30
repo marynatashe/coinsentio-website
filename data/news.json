@@ -1,5 +1,140 @@
 [
   {
+    "id": "f90d5231e7952ffa",
+    "source": "動區動趨",
+    "language": "tw",
+    "original_title": "幣安駭客估得手 18,270 枚比特幣、49 萬枚 ETH 越滾越多，穩定幣多已凍結",
+    "source_url": "https://www.blocktempo.com/binance-hacker-holds-492k-eth-18270-btc-untouched-onchain-tally/",
+    "published_at": "2026-10-30T02:49:52+00:00",
+    "status": "collected"
+  },
+  {
+    "id": "9096d236c8ed878c",
+    "source": "PANews",
+    "language": "cn",
+    "original_title": "链上追踪：黑客抢走币安62.8亿美元，完整攻击路径深度复盘",
+    "source_url": "https://www.panewslab.com/zh/articles/01a18aa0-5f39-72c1-a45c-bf5f08a67f61",
+    "published_at": "2026-10-30T02:25:00+00:00",
+    "status": "collected"
+  },
+  {
+    "id": "7388f55ccd4363b1",
+    "source": "動區動趨",
+    "language": "tw",
+    "original_title": "幣安遇駭懶人包（持續更新）：發生什麼事、賠付、凍結、Binance 提款進度一次看",
+    "source_url": "https://www.blocktempo.com/binance-hack-explainer-timeline-frozen-funds-compensation-deposits-withdrawals-resume/",
+    "published_at": "2026-10-30T02:22:43+00:00",
+    "status": "collected"
+  },
+  {
+    "id": "b33aa0982a156899",
+    "source": "動區動趨",
+    "language": "tw",
+    "original_title": "穆迪開第一槍！RLUSD 成首個拿下投資級評等的穩定幣",
+    "source_url": "https://www.blocktempo.com/moodys-ratings-rlusd-first-investment-grade-stablecoin-rating-ripple/",
+    "published_at": "2026-10-30T02:00:05+00:00",
+    "status": "collected"
+  },
+  {
+    "id": "0a79d0a3103b49ee",
+    "source": "動區動趨",
+    "language": "tw",
+    "original_title": "Securitize 接入 Stellar！代幣化資產再添第四條公鏈",
+    "source_url": "https://www.blocktempo.com/securitize-stellar-tokenized-real-world-assets-fourth-blockchain-integration/",
+    "published_at": "2026-10-30T01:56:51+00:00",
+    "status": "collected"
+  },
+  {
+    "id": "ed0e5290879c4a41",
+    "source": "PANews",
+    "language": "cn",
+    "original_title": "加密市场迎“惊魂十月”！币安疑遭史上最大黑客攻击，过半资金已被冻结",
+    "source_url": "https://www.panewslab.com/zh/articles/01a18a83-d870-727a-a761-fe63a3743370",
+    "published_at": "2026-10-30T01:53:00+00:00",
+    "status": "collected"
+  },
+  {
+    "id": "020652229567b2f5",
+    "source": "PANews",
+    "language": "cn",
+    "original_title": "币安被盗 58 亿美元！加密史上最大黑客事件全复盘",
+    "source_url": "https://www.panewslab.com/zh/articles/01a18a75-b124-759b-bc29-ab30233e6f2a",
+    "published_at": "2026-10-30T01:50:00+00:00",
+    "status": "collected"
+  },
+  {
+    "id": "b26f4c77c73ee681",
+    "source": "動區動趨",
+    "language": "tw",
+    "original_title": "小心！主動上門的幣安賠付，一律先當詐騙、注意釣魚網站",
+    "source_url": "https://www.blocktempo.com/binance-hack-fake-compensation-phishing-scams-expected-official-channels-verify/",
+    "published_at": "2026-10-30T01:46:45+00:00",
+    "status": "collected"
+  },
+  {
+    "id": "27221846e6f5cf4b",
+    "source": "動區動趨",
+    "language": "tw",
+    "original_title": "幣安駭客倒貨七種山寨幣：UNI 賣最多、ENA 慘崩 16%，共換 70,480 枚 ETH",
+    "source_url": "https://www.blocktempo.com/binance-hacker-dumps-seven-altcoins-swaps-ether-prices-slide-sharply/",
+    "published_at": "2026-10-30T01:42:43+00:00",
+    "status": "collected"
+  },
+  {
+    "id": "7915599b8addb21a",
+    "source": "動區動趨",
+    "language": "tw",
+    "original_title": "復盤幣安熱錢包遭駭 62.8 億美元！55 分鐘 8 鏈被搬空，凍結戰開打",
+    "source_url": "https://www.blocktempo.com/binance-hot-wallet-hack-6-28-billion-eight-chains-eip-7702-sweep/",
+    "published_at": "2026-10-30T01:37:59+00:00",
+    "status": "collected"
+  },
+  {
+    "id": "32eed14a8e157c31",
+    "source": "動區動趨",
+    "language": "tw",
+    "original_title": "美元霸權改靠科技傘！貝森特：數位資產是美中競爭決勝點",
+    "source_url": "https://www.blocktempo.com/bessent-digital-assets-dollar-tech-umbrella-china-race/",
+    "published_at": "2026-10-30T01:32:27+00:00",
+    "status": "collected"
+  },
+  {
+    "id": "902d86df15a8af5b",
+    "source": "動區動趨",
+    "language": "tw",
+    "original_title": "Tenev 喊 SEC 創新豁免不夠，五年不確定性卡住代幣化股票",
+    "source_url": "https://www.blocktempo.com/robinhood-tenev-tokenized-stocks-sec-uncertainty-q3-crypto-revenue/",
+    "published_at": "2026-10-30T01:32:18+00:00",
+    "status": "collected"
+  },
+  {
+    "id": "032c90f9c07afe7f",
+    "source": "動區動趨",
+    "language": "tw",
+    "original_title": "a16長文：87% CISO 搶加碼，AI 時代網路安全預算為何報復性增長？",
+    "source_url": "https://www.blocktempo.com/a16z-ciso-security-budget-ai-2027-growth-research-survey/",
+    "published_at": "2026-10-30T01:31:16+00:00",
+    "status": "collected"
+  },
+  {
+    "id": "b8cdcb07d7fce371",
+    "source": "PANews",
+    "language": "cn",
+    "original_title": "可怕的红果与中国互联网的字节时间",
+    "source_url": "https://www.panewslab.com/zh/articles/01a18703-efa4-7336-b353-c46ca9ec014f",
+    "published_at": "2026-10-30T00:57:00+00:00",
+    "status": "collected"
+  },
+  {
+    "id": "eaadf4277f728bf1",
+    "source": "PANews",
+    "language": "cn",
+    "original_title": "a16z 调研 100 位 CISO：AI 时代，网络安全预算为何迎来“报复性”增长？",
+    "source_url": "https://www.panewslab.com/zh/articles/01a18757-0ef0-72ba-830e-c455127877e3",
+    "published_at": "2026-10-29T23:58:00+00:00",
+    "status": "collected"
+  },
+  {
     "id": "0972e04c534ba370",
     "source": "動區動趨",
     "language": "tw",
